@@ -22,8 +22,19 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+```
+stack = []
+stack.append('a')
+stack.append('b')
+stack.append('c')
+print ('Initial stack: ' + str(stack))
+for i in range(len(stack)):
+     print(i,stack[i])
+
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/8f18de0c-743d-4dc7-90fc-9afe35ff151e)
 
 ## Result
+Thus, the given program is implemented and executed successfully.
